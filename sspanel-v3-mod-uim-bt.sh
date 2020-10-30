@@ -66,7 +66,7 @@ echo -e "${Info} 检测安装git、unzip、crontab工具已完成"
 sleep 1
 ##下载解压拷贝源码
 echo -e "${Info} 正在下载解压处理程序源码"
-wget -N --no-check-certificate "https://github.com/lizhongnian/ss-panel-v3-mod_Uim/archive/dev.zip"
+wget -N --no-check-certificate "https://github.com/huigezizai/ss-panel-v3-mod_Uim/archive/dev.zip"
 unzip dev.zip
 cd ss-panel-v3-mod_Uim-dev
 mv * .[^.]* /www/wwwroot/$website/
@@ -213,6 +213,5 @@ echo -e "${Info} 部署完成，请打开http://$website即可浏览"
 echo -e "${Info} 默认生成的管理员用户名：admin 密码为7colorblog"
 echo -e "${Info} 如果打不开站点，请到宝塔面板中软件管理重启nginx和php7.1"
 echo -e "${Info} 自定义配置，请打开/www/wwwroot/$website/config/.config.php进行修改"
-echo -e "${Info} github地址:https://github.com/lizhongnian/sspanel-v3-mod-uim-bt"
-echo -e "${Info} 博客地址:https://www.7colorblog.com/"
+echo -e "${Info} github地址:https://github.com/xqd22/sspanel-v3-mod-uim-bt"
 echo "--------------------------------------------------------------------------------"
